@@ -13,7 +13,7 @@ jobs:
       - checkout
       - run:
           name: Install
-          command: yarn Install
+          command: yarn install
       - run:
           name: Build
           command: yarn build
